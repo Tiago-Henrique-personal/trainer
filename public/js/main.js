@@ -3,7 +3,7 @@
    ========================================================= */
 
 // >>> EDITE AQUI: número do WhatsApp com DDI + DDD, só números (ex.: 5561999999999)
-const WHATSAPP = "55XXXXXXXXXXX";
+const WHATSAPP = "5561994401001";
 
 (function () {
   "use strict";

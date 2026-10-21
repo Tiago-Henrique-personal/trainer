@@ -22,7 +22,7 @@ site/
 Em `public/img/`: `logo.png` (logo completo), `logo-icone.png` (monograma do topo), `favicon.png`, `apple-touch-icon.png`, `tiago.jpg` (foto do topo) e `resultado-1.jpg` a `resultado-3.jpg` (antes e depois). Para trocar uma foto, substitua o arquivo mantendo o mesmo nome.
 
 ## 2. O que ainda falta preencher (procure por "EDITE")
-- **WhatsApp:** `public/js/main.js`, linha `const WHATSAPP = "55XXXXXXXXXXX";` → ex.: `5561999999999`. Depois disso, cada botão de plano abre o WhatsApp com o nome e o valor do plano escolhido. Sem o número, os botões levam ao formulário de contato.
+- **WhatsApp:** configurado em `public/js/main.js` (`5561994401001`). Para trocar, edite a linha `const WHATSAPP`.
 - **Instagram:** (CREF 022066-C/DF já incluído) `public/index.html` (comentários indicam onde).
 - **E-mail na Política de Privacidade:** `public/privacidade.html`.
 - **Preços:** já preenchidos (Mensal R$ 150,00 · Trimestral R$ 359,90 · Semestral R$ 599,90). Para alterar, edite a seção `PLANOS` do `index.html`.
