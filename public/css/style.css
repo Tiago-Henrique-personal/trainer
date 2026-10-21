@@ -492,3 +492,4 @@ img.img-ausente { visibility: hidden; }
 .hero { padding: 100px 0 90px; }
 @media (max-width: 880px) { .secao--abertura { padding-top: 120px; } .hero { padding: 80px 0 70px; } }
 
+.chips .chip--destaque { background: var(--vermelho); }
