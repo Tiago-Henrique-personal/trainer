@@ -1,0 +1,22 @@
+{
+  "name": "tiago-henrique-personal",
+  "version": "1.0.0",
+  "description": "Landing page da Consultoria Online Tiago Henrique Personal",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "prod": "NODE_ENV=production node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "csrf-csrf": "^3.0.6",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "validator": "^13.12.0"
+  }
+}
